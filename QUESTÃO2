@@ -1,1 +1,13 @@
+idade = int(input("Informe sua idade: "))
 
+if idade == 0:
+  print("Essa idade é inválida.")
+  
+if idade >= 18 and idade <= 69:
+    print("Tem obrigação de votar.")
+else:
+  if idade >= 70 or idade <= 15 and idade != 0:
+    print("Não tem obrigação de votar.")
+    
+  if idade == 16 or idade == 17: 
+    print("Você é um eleitor facultativo.")
